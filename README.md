@@ -10,14 +10,14 @@ Hand gestures includes,
 handDetectorModule.py
   * Description: This module processes video input from the system's webcam to detect hands and draw landmarks on them.
   * Functionality:
-      *Captures webcam video feed.
-      *Detects hands in the input images using MediaPipe's hand detection model.
-      *Draws landmarks on the detected hands.
-      *Creates and returns a list of landmark positions.
+    *Captures webcam video feed.
+    *Detects hands in the input images using MediaPipe's hand detection model.
+    *Draws landmarks on the detected hands.
+    *Creates and returns a list of landmark positions.
     
 2.gestureMediaControl.py
   * Description: This module interprets hand gestures detected by handDetectorModule.py to control media playback.
   * Functionality:
-      *Imports pyautogui for keyboard and mouse controls and pycaw for audio controls.
-      *Utilizes custom gestures defined using the landmark data from the hand detection module.
-      *Implements the gestures.
+    *Imports pyautogui for keyboard and mouse controls and pycaw for audio controls.
+    *Utilizes custom gestures defined using the landmark data from the hand detection module.
+    *Implements the gestures.
